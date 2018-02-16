@@ -11,4 +11,8 @@ result = s.numJewelsInStones(in_1, in_2)
 
 print(result)
 
+import math
+
+print(math.sqrt(5))
+
 
