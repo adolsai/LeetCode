@@ -1,11 +1,11 @@
 #Write your MySQL query statement below
 
-#OR
+#OR 一般写法
 SELECT name,population,area
 FROM World
 WHERE population > 25000000 OR area > 3000000
 
-#Union
+#Union 通过UNION加速, 因为但条件查询比较快, 查询完之后合并
 SELECT name, population, area
 FROM World
 WHERE area > 3000000
