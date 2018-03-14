@@ -1,7 +1,10 @@
 
-from LC513 import findBottomLeftValue
+from LC647 import Solution
 
+s = Solution()
 
-print(result)
+k=s.countSubstrings('abc')
+
+print(k)
 
 
